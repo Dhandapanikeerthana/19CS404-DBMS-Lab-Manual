@@ -1,3 +1,7 @@
+## REG NO: 212224040155
+## NAME: KEERTHANA D
+
+
 # Experiment 7: PL/SQL – Variables, Control Structures and Loops
 
 ## AIM
@@ -15,7 +19,7 @@ DECLARE
 BEGIN 
    <executable command(s)>
 EXCEPTION 
-   <exception handling> 
+   <exception handling>
 END;
 ```
 
@@ -51,6 +55,7 @@ BEGIN
 END;
 ```
 ## Output:
+<img width="726" height="227" alt="Screenshot 2026-03-16 103409" src="https://github.com/user-attachments/assets/6adecc30-734a-421e-883a-2c76ace10c63" />
 
 
 ---
@@ -84,6 +89,7 @@ END;
 ```
 ## Output:
 
+<img width="627" height="186" alt="image" src="https://github.com/user-attachments/assets/c1d2fdb3-1539-4dcc-a199-c0eab840ba09" />
 
 ---
 
@@ -123,6 +129,7 @@ BEGIN
 END;
 ```
 ## Output:
+<img width="923" height="448" alt="image" src="https://github.com/user-attachments/assets/107f3868-65f9-43ff-8590-31e1a5a94b25" />
 
 
 ---
@@ -161,6 +168,7 @@ END;
 
 ## Output:
 
+<img width="824" height="265" alt="image" src="https://github.com/user-attachments/assets/365bb37a-59be-4357-bbf5-4a1008945f40" />
 
 ---
 
@@ -197,6 +205,7 @@ BEGIN
 END;
 ```
 ## Output:
+<img width="689" height="268" alt="image" src="https://github.com/user-attachments/assets/291cc790-57ff-48e6-9eaa-bcb0b8960876" />
 
 
 ## RESULT
