@@ -50,7 +50,7 @@ SELECT column1, column2 FROM table_name WHERE condition;
 For products with a profit % less than 30% of selling price, update the selling price to provide a profit margin of 35% over cost price of the product in the products table.
 
 PRODUCTS TABLE
-
+```
 name               type
 -----------------  ---------------
 product_id         INT
@@ -61,7 +61,7 @@ sell_price         DECIMAL(10,2)
 reorder_lvl        INT
 quantity           INT
 supplier_id        INT
-
+```
 ```sql
 UPDATE products
 SET sell_price = cost_price * 135/100
@@ -77,7 +77,7 @@ WHERE ((sell_price - cost_price) / sell_price) * 100 < 30;
 Write a SQL statement to Update the address to '58 Lakeview, Magnolia' where supplier ID is 5 in the suppliers table.
 
 Suppliers Table 
-
+```
 name               type
 -----------------  ---------------
 supplier_id        INT
@@ -86,7 +86,7 @@ contact_person     VARCHAR(100)
 phone_number       VARCHAR(20)
 email              VARCHAR(100)
 address            VARCHAR(250)
-
+```
 ```sql
 UPDATE suppliers
 SET address = '58 Lakeview, Magnolia'
@@ -102,7 +102,7 @@ WHERE supplier_id = 5;
 Write a SQL query to reduce the reorder level by 30% where cost price is more than 50 and quantity in stock is less than 100 in the products table.
 
 Products Table 
-
+```
 name          type       
 ----------    ---------- 
 product_id     INT PRIMARY KEY        
@@ -113,7 +113,7 @@ sell_price     DECIMAL(10)
 reorder_lvl    INT        
 quantity       INT        
 supplier_id    INT  
-
+```
 ```sql
 UPDATE products
 SET reorder_lvl = reorder_lvl * 70 / 100
@@ -130,7 +130,7 @@ WHERE cost_price > 50
 Update the reorder level to 40 pieces for all products belonging to the 'Grocery' category in the products table.
 
 PRODUCTS TABLE
-
+```
 name               type
 -----------------  ---------------
 product_id         INT
@@ -141,7 +141,7 @@ sell_price         DECIMAL(10,2)
 reorder_lvl        INT
 quantity           INT
 supplier_id        INT
-
+```
 ```sql
 UPDATE products
 SET reorder_lvl = 40
@@ -157,8 +157,7 @@ WHERE category = 'Grocery';
 Write a SQL statement to Increase the salary by 500 and email as 'updated' for employees with job ID 'SA_REP' and commission percentage greater than 0.15
 
 Employees table
-
----------------
+```
 employee_id
 first_name
 last_name
@@ -170,7 +169,7 @@ salary
 commission_pct
 manager_id
 department_id
-
+```
 ```sql
 UPDATE employees
 SET salary = salary + 500,
@@ -184,7 +183,7 @@ WHERE job_id = 'SA_REP'
 <img width="700" height="500" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/0aeb5ac1-050c-4df6-afe6-e7e905cc44a5" />
 
 **Question 6**
----
+
 Write a SQL query to Delete customers from 'customer' table where 'CUST_NAME' has exactly 6 characters.
 ```sql
 DELETE FROM customer
