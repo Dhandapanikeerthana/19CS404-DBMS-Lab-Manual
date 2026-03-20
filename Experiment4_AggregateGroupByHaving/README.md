@@ -1,3 +1,5 @@
+## REG.NO: 212224040155
+
 # Experiment 4: Aggregate Functions, Group By and Having Clause
 
 ## AIM
@@ -322,6 +324,7 @@ HAVING
 
 
 ![Screenshot 2025-04-29 172754](https://github.com/user-attachments/assets/2feda0d6-0e59-4af8-a0b6-15ea0c411c22)
+
 
 
 
