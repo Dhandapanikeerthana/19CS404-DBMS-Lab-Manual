@@ -1,3 +1,5 @@
+## REG.NO: 212224040155
+
 # Experiment 2: DDL Commands
 
 ## AIM
@@ -306,6 +308,7 @@ insert into Books select * from Out_of_print_books
 <img width="1000" height="800" alt="Screenshot 2026-02-02 133405" src="https://github.com/user-attachments/assets/ae821cc6-4f05-4959-98a2-9025fca057c6" />
 
 
+<img width="1066" height="103" alt="image" src="https://github.com/user-attachments/assets/e0955002-128d-4112-a4d7-4869f7959663" />
 
 ## RESULT
 Thus, the SQL queries to implement different types of constraints and DDL commands have been executed successfully.
